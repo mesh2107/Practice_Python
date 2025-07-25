@@ -1,0 +1,11 @@
+name=("aaa","bbb","ccc","ddd","eee")
+(A,B,C,D,E)=name
+print(A)
+print(B)
+print(C)
+(X,*b)=name
+print(X)
+print(b)
+(*Y,c)=name
+print(Y)
+print(c)

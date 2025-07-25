@@ -1,0 +1,17 @@
+student=()
+percent=()
+st=list(student)
+per=list(percent)
+num=int(input("how many students: "))
+for i in range(0,num):
+    name=input("enter name: ")
+    st.append(name)
+    marks=int(input("enter percent of"+ name +": "))
+    per.append(marks)
+
+print(st)
+print(per)
+st2=tuple(st)
+per2=tuple(per)
+print(st2)
+print(per2)
